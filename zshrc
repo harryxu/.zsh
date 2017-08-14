@@ -83,5 +83,5 @@ export PATH=~/bin:~/opt/bin::$PATH
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 autoload -U promptinit; promptinit
-PURE_PROMPT_SYMBOL=ℷ
+PURE_PROMPT_SYMBOL=➔
 prompt pure
