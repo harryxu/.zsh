@@ -6,6 +6,7 @@ cd ~
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 npm install --global pure-prompt
 git clone https://github.com/harryxu/.zsh.git
+rm .zshrc
 ln -s ~/.zsh/zshrc ~/.zshrc
 ```
 
