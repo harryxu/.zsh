@@ -67,6 +67,8 @@ export GIT_EDITOR=nvim
 
 export PATH=~/bin:~/opt/bin::$PATH
 
+export GOPATH=$HOME/go
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
