@@ -65,7 +65,7 @@ source $ZSH/oh-my-zsh.sh
 export EDITOR=nvim
 export GIT_EDITOR=nvim
 
-export PATH=~/bin:~/opt/bin::$PATH
+export PATH=~/bin:~/opt/bin:~/go/bin::$PATH
 
 export GOPATH=$HOME/go
 
