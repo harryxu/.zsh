@@ -51,7 +51,7 @@ ZSH_THEME=""
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(autojump git git-extras osx pip git-flow vagrant composer golang zsh-completions)
+plugins=(autojump git git-extras osx pip git-flow vagrant composer golang nvm)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -85,6 +85,7 @@ export GOPATH=$HOME/go
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 autoload -U promptinit; promptinit
+
 PURE_PROMPT_SYMBOL=➔
 prompt pure
 
