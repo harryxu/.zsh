@@ -85,6 +85,7 @@ export GOPATH=$HOME/go
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 autoload -U promptinit; promptinit
+autoload -U compinit && compinit
 
 PURE_PROMPT_SYMBOL=➔
 prompt pure
